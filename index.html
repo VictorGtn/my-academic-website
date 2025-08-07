@@ -2,37 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Name - PhD Student</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>About me</h1>
-        </header>
+    <div class="page">
+        <aside class="side-bar" aria-hidden="true">
+            <div class="webring">
+                <a href="#" aria-label="Previous">&larr;</a>
+                <span>Webring</span>
+                <a href="#" aria-label="Next">&rarr;</a>
+            </div>
+        </aside>
 
-        <main>
-            <div class="content">
+        <main class="main">
+            <header class="header">
+                <h1>About me</h1>
+            </header>
+
+            <section class="content">
                 <p>
-                    I am a PhD student in [Your Field] at [University Name].
-                    My research focuses on [Your Research Topic], particularly in the context of [Specific Context].
+                    I am a PhD student in [Your Field] at [University Name]. I am also attached to [Lab or Center].
+                    My PhD project revolves around [high-level topic], especially in the context of [specific context].
                 </p>
 
-                <div class="name">
-                    <h2>Your Name</h2>
-                </div>
+                <h2 class="name">Your Name</h2>
 
                 <div class="contact">
-                    <p>Email: <a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
-                    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-                    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile"
-                            target="_blank">linkedin.com/in/yourprofile</a></p>
+                    <p><a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+                    <p><a href="https://github.com/yourusername" target="_blank"
+                            rel="noopener">github.com/yourusername</a></p>
+                    <p><a href="https://linkedin.com/in/yourprofile" target="_blank"
+                            rel="noopener">linkedin.com/in/yourprofile</a></p>
                 </div>
-            </div>
+            </section>
         </main>
     </div>
 </body>
