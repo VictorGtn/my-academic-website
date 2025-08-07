@@ -6,262 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - PhD Student</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Your Name</a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#research" class="nav-link">Research</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#publications" class="nav-link">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+    <div class="container">
+        <header>
+            <h1>About me</h1>
+        </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Your Name</h1>
-                <h2 class="hero-subtitle">PhD Student in [Your Field]</h2>
-                <p class="hero-description">
-                    I'm a PhD student at [University Name] researching [Your Research Area].
-                    My work focuses on [Brief description of your research interests].
+        <main>
+            <div class="content">
+                <p>
+                    I am a PhD student in [Your Field] at [University Name].
+                    My research focuses on [Your Research Topic], particularly in the context of [Specific Context].
                 </p>
-                <div class="hero-buttons">
-                    <a href="#research" class="btn btn-primary">View My Research</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+
+                <div class="name">
+                    <h2>Your Name</h2>
+                </div>
+
+                <div class="contact">
+                    <p>Email: <a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+                    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile"
+                            target="_blank">linkedin.com/in/yourprofile</a></p>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I am a PhD student in [Your Field] at [University Name], working under the supervision of
-                        [Supervisor Name]. My research interests lie at the intersection of [Field 1] and [Field 2],
-                        with a particular focus on [Specific Research Topic].
-                    </p>
-                    <p>
-                        Before starting my PhD, I completed my [Previous Degree] at [Previous University] where I
-                        [Brief description of your background or previous work].
-                    </p>
-                    <div class="skills">
-                        <h3>Research Areas</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">[Research Area 1]</span>
-                            <span class="skill-tag">[Research Area 2]</span>
-                            <span class="skill-tag">[Research Area 3]</span>
-                            <span class="skill-tag">[Research Area 4]</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h3>3+</h3>
-                        <p>Years of Research</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>5+</h3>
-                        <p>Publications</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>10+</h3>
-                        <p>Conference Presentations</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research</h2>
-            <div class="research-grid">
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-microscope"></i>
-                    </div>
-                    <h3>Primary Research Area</h3>
-                    <p>
-                        Description of your main research focus. Explain the significance and potential impact
-                        of your work in this area.
-                    </p>
-                </div>
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Secondary Research Area</h3>
-                    <p>
-                        Description of your secondary research interests and how they complement your primary work.
-                    </p>
-                </div>
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>Methodology</h3>
-                    <p>
-                        Overview of the research methods and techniques you employ in your work, including
-                        any innovative approaches you've developed.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="publications">
-        <div class="container">
-            <h2 class="section-title">Publications</h2>
-            <div class="publications-list">
-                <div class="publication-item">
-                    <div class="publication-year">2024</div>
-                    <div class="publication-content">
-                        <h3>Title of Your Latest Publication</h3>
-                        <p class="publication-authors">Your Name, Co-author Name, Supervisor Name</p>
-                        <p class="publication-venue">Journal/Conference Name</p>
-                        <div class="publication-links">
-                            <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="publication-item">
-                    <div class="publication-year">2023</div>
-                    <div class="publication-content">
-                        <h3>Another Publication Title</h3>
-                        <p class="publication-authors">Your Name, Other Authors</p>
-                        <p class="publication-venue">Conference/Journal Name</p>
-                        <div class="publication-links">
-                            <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - Present</div>
-                    <div class="timeline-content">
-                        <h3>PhD Student</h3>
-                        <h4>[University Name]</h4>
-                        <p>Research focus on [Your Research Topic]. Supervised by [Supervisor Name].</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - 2022</div>
-                    <div class="timeline-content">
-                        <h3>Research Assistant</h3>
-                        <h4>[Previous University/Institution]</h4>
-                        <p>Worked on [Previous Research Project] under [Previous Supervisor].</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2018 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>Master's Degree</h3>
-                        <h4>[University Name]</h4>
-                        <p>Completed [Master's Program] with thesis on [Thesis Topic].</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>your.email@university.edu</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>[Department Name]<br>[University Name]<br>[City, State]</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h3>LinkedIn</h3>
-                            <p><a href="#" target="_blank">linkedin.com/in/yourprofile</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h3>GitHub</h3>
-                            <p><a href="#" target="_blank">github.com/yourusername</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        </main>
+    </div>
 </body>
 
 </html>
